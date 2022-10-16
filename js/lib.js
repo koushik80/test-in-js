@@ -54,7 +54,7 @@ const checkAndGenerate = async function(userIdValue, titleValue, articleValue) {
   });
 
   const {userId, title} = postedResponse;
-  
+
   // generate output
   const resultText = generateResult(userId, title);
   return resultText;
