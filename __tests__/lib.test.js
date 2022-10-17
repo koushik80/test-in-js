@@ -1,3 +1,5 @@
+//jest.mock('../js/postToServer.js');
+
 const puppeteer = require('puppeteer');
 const { generateResult, validateInput, checkAndGenerate } = require('../js/lib.js');
 
